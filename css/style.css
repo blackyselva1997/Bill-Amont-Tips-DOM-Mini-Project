@@ -1,0 +1,45 @@
+.display {
+    display: none;
+}
+
+body {
+    background-color: #00000096;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#form {
+    border: 5px solid #000;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: aliceblue;
+}
+
+label {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+input {
+    padding: 15px;
+    font-size: 20px;
+    border: 3px solid aqua;
+    border-radius: 20px;
+}
+
+#result {
+    font-size: 25px;
+    font-weight: 800;
+    font-style: italic;
+    padding: 15px;
+    margin-left: 40%;
+    margin-top: 20px;
+    border: 3px solid #003cff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.display input {
+    border: 3px solid #d49621;
+}
